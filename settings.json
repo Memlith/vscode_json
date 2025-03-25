@@ -52,5 +52,6 @@
   "extensions.ignoreRecommendations": true,
   "update.showReleaseNotes": false,
   "rewrap.wrappingColumn": 120,
-  "rewrap.autoWrap.enabled": true
+  "rewrap.autoWrap.enabled": true,
+  "gitlens.graph.layout": "editor"
 }
