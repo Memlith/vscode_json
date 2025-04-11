@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "JetBrains Dark (New UI)",
+  "workbench.colorTheme": "PyCharm Night Theme",
   "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontSize": 14,
@@ -20,19 +20,15 @@
   "editor.minimap.enabled": false,
   "workbench.statusBar.visible": false,
   "explorer.fileNesting.enabled": true,
-  "workbench.layoutControl.enabled": false,
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
   "breadcrumbs.enabled": false,
   //rocketseat
   "editor.tabSize": 2,
   "workbench.navigationControl.enabled": false,
-  "window.commandCenter": false,
   "window.title": "${activeEditorShort}",
-  "window.menuBarVisibility": "visible",
   "terminal.integrated.tabs.enabled": false,
   "workbench.panel.showLabels": false,
-  "workbench.editor.editorActionsLocation": "hidden",
   "editor.accessibilitySupport": "off",
   "editor.formatOnSave": true,
   "workbench.sideBar.location": "right",
@@ -53,5 +49,23 @@
   "update.showReleaseNotes": false,
   "rewrap.wrappingColumn": 120,
   "rewrap.autoWrap.enabled": true,
-  "gitlens.graph.layout": "editor"
+  "gitlens.graph.layout": "editor",
+  "workbench.editor.editorActionsLocation": "titleBar",
+  "chat.commandCenter.enabled": false,
+  "editor.renderWhitespace": "all",
+  "git.autofetch": true,
+  "codeium.enableConfig": {
+    "*": true,
+    "python": false
+  },
+  "git.openRepositoryInParentFolders": "always",
+  "codeium.enableCodeLens": false,
+  "redhat.telemetry.enabled": false,
+  "codeium.disableSupercomplete": true,
+  "git.confirmSync": false,
+  "debug.onTaskErrors": "abort",
+  "git.enableSmartCommit": true,
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "window.menuBarVisibility": "toggle"
 }
