@@ -1,71 +1,118 @@
 {
-  "workbench.colorTheme": "PyCharm Night Theme",
-  "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
-  "editor.fontFamily": "JetBrains Mono",
-  "editor.fontSize": 14,
-  "editor.lineHeight": 1.85,
-  "editor.rulers": [
-    80,
-    120
-  ],
-  "workbench.startupEditor": "newUntitledFile",
-  "editor.renderLineHighlight": "gutter",
-  "editor.fontLigatures": true,
-  "workbench.editor.labelFormat": "short",
-  "explorer.compactFolders": false,
-  "editor.semanticHighlighting.enabled": false,
-  "workbench.activityBar.location": "top",
-  "editor.scrollbar.horizontal": "hidden",
-  "editor.scrollbar.vertical": "auto",
-  "editor.minimap.enabled": false,
-  "workbench.statusBar.visible": false,
-  "explorer.fileNesting.enabled": true,
-  "terminal.integrated.fontSize": 14,
-  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
-  "breadcrumbs.enabled": false,
-  //rocketseat
-  "editor.tabSize": 2,
-  "workbench.navigationControl.enabled": false,
-  "window.title": "${activeEditorShort}",
-  "terminal.integrated.tabs.enabled": false,
-  "workbench.panel.showLabels": false,
-  "editor.accessibilitySupport": "off",
-  "editor.formatOnSave": true,
-  "workbench.sideBar.location": "right",
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter",
-    "editor.tabSize": 4,
-    "editor.codeActionsOnSave": {
-      "source.organizeImports": "explicit"
-    }
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "extensions.ignoreRecommendations": true,
-  "update.showReleaseNotes": false,
-  "rewrap.wrappingColumn": 120,
-  "rewrap.autoWrap.enabled": true,
-  "gitlens.graph.layout": "editor",
-  "workbench.editor.editorActionsLocation": "titleBar",
-  "chat.commandCenter.enabled": false,
-  "editor.renderWhitespace": "all",
-  "git.autofetch": true,
-  "codeium.enableConfig": {
-    "*": true,
-    "python": false
-  },
-  "git.openRepositoryInParentFolders": "always",
-  "codeium.enableCodeLens": false,
-  "redhat.telemetry.enabled": false,
-  "codeium.disableSupercomplete": true,
-  "git.confirmSync": false,
-  "debug.onTaskErrors": "abort",
-  "git.enableSmartCommit": true,
-  "window.commandCenter": false,
-  "workbench.layoutControl.enabled": false,
-  "window.menuBarVisibility": "toggle"
+    "workbench.colorTheme": "JetBrains Darcula Theme",
+    "workbench.iconTheme": "symbols",
+    "workbench.productIconTheme": "fluent-icons",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 15,
+    "editor.lineHeight": 1.8,
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.fontFamily": "MesloLGLDZ Nerd Font Mono",
+    "workbench.statusBar.visible": false,
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.renderLineHighlight": "gutter",
+    "editor.fontLigatures": true,
+    "workbench.editor.labelFormat": "short",
+    "explorer.compactFolders": false,
+    "editor.semanticHighlighting.enabled": false,
+    "workbench.activityBar.location": "top",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "auto",
+    "editor.minimap.enabled": false,
+    "explorer.fileNesting.enabled": true,
+    "breadcrumbs.enabled": false,
+    //rocketseat
+    "editor.tabSize": 2,
+    "workbench.navigationControl.enabled": false,
+    "window.title": "${activeEditorShort}",
+    "terminal.integrated.tabs.enabled": false,
+    "workbench.panel.showLabels": false,
+    "editor.accessibilitySupport": "off",
+    "editor.formatOnSave": true,
+    "workbench.sideBar.location": "right",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.tabSize": 4,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[html][css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "extensions.ignoreRecommendations": true,
+    "update.showReleaseNotes": false,
+    "rewrap.wrappingColumn": 120,
+    "rewrap.autoWrap.enabled": true,
+    "gitlens.graph.layout": "editor",
+    "workbench.editor.editorActionsLocation": "titleBar",
+    "chat.commandCenter.enabled": false,
+    "editor.renderWhitespace": "all",
+    "git.autofetch": true,
+    "git.openRepositoryInParentFolders": "always",
+    "redhat.telemetry.enabled": false,
+    "git.confirmSync": false,
+    "debug.onTaskErrors": "abort",
+    "git.enableSmartCommit": true,
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "window.menuBarVisibility": "toggle",
+    "[blade]": {
+        "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+    },
+    "remote.SSH.remotePlatform": {
+        "notebook": "linux"
+    },
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "python": false
+    },
+    "workbench.colorCustomizations": {
+        // custom colors for JetBrains Darcula Theme extension.
+        "[JetBrains Darcula Theme]": {
+            "list.hoverBackground": "#27292a",
+            "list.activeSelectionBackground": "#27292a",
+            "editorGutter.background": "#00000010",
+            "tab.activeBackground": "#3c3f41",
+            "tab.inactiveBackground": "#3c3f4100",
+            "sideBarSectionHeader.background": "#27292a75",
+            "editorGroupHeader.tabsBorder": "#00000000",
+            "scrollbar.shadow": "#00000000",
+            "tab.activeBorder": "#00000000",
+            "tab.border": "#3c3f41",
+            "titleBar.border": "#3c3f41",
+            "sideBar.border": "#3c3f41",
+            "activityBar.border": "#3c3f41",
+            "sideBarSectionHeader.border": "#3c3f41",
+            "statusBar.border": "#3c3f41",
+        }
+    },
+    "editor.tokenColorCustomizations": {
+        "[JetBrains Darcula Theme]": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "variable.parameter.function.language.special.cls.python"
+                    ],
+                    "settings": {
+                        "foreground": "#94558D"
+                    }
+                }
+            ]
+        }
+    },
+    "window.newWindowDimensions": "maximized",
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
 }
